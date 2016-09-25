@@ -20,7 +20,7 @@ app.use(express.static('app/public'));
 //set up routes by requiring from routing folder 
 //send app object through require 
 // reference : http://stackoverflow.com/questions/6059246/how-to-include-route-handlers-in-multiple-files-in-express
-require('./app.routing/api-routes.js')(app);
+require('./app/routing/api-routes.js')(app);
 require('./app/routing/html-routes.js')(app);
 
 // Starts the server to begin listening
