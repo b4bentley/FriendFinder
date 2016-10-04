@@ -21,9 +21,9 @@
     "url": "https://github.com/b4bentley/FriendFinder/issues"
   },
   "homepage": "https://github.com/b4bentley/FriendFinder#readme",
-  "devDependencies": {
-    "body-parser": "^1.15.2",
+  "dependencies": {
     "express": "^4.14.0",
+    "body-parser": "^1.15.2",
     "path": "^0.12.7"
   }
 }
